@@ -1,9 +1,11 @@
+#include <stddef.h>
+
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wint-conversion"
 int	ft_strlen(char *str)
 <%
-	u_int64_t	_;
-	u_int32_t	__;
+	short	_;
+	short	__;
 
 	_ = NULL;
 	__ = ~(-0x00001);
