@@ -1,24 +1,14 @@
 # ft_strlen Subject
 ```
-Assignment name  : ft_list_size
-Expected files   : ft_list_size.c, ft_list.h
+Assignment name  : ft_strlen
+Expected files   : ft_strlen.c
 Allowed functions:
 --------------------------------------------------------------------------------
 
-Write a function that returns the number of elements in the linked list that's
-passed to it.
+Write a function that returns the length of a string.
 
-It must be declared as follows:
+Your function must be declared as follows:
 
-int	ft_list_size(t_list *begin_list);
-
-You must use the following structure, and turn it in as a file called
-ft_list.h:
-
-typedef struct    s_list
-{
-    struct s_list *next;
-    void          *data;
-}                 t_list;
+int	ft_strlen(char *str);
 
 ```
